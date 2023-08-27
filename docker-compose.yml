@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+    
+  node:
+    image: node:19.9-alpine3.18
+    # build:
+    #   context: .
+    #   dockerfile: docker/Dockerfile
+    tty: true
+    volumes:
+      - ./vscode-extension-exp:/app

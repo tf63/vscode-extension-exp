@@ -1,0 +1,6 @@
+{
+    "name": "vscode-extension-exp",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "node",
+    "workspaceFolder": "/app"
+}
